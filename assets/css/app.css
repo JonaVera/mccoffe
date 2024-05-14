@@ -1,0 +1,82 @@
+body {
+    font-family: "Sedan", serif;
+    /* font-family: "Jersey 10", sans-serif; */
+    /* font-family: "Open Sans"; */
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+
+header {
+    background-image: url(../img/bg-hero.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* font-family: Open sans; */
+    text-shadow: 0px 3px 6px black;
+    text-align: right;
+    color: white;
+}
+
+li {
+    display: inline;
+    background-color: yellow;
+    margin: 0% 1.2%;
+    /* Sepera las palabras */
+    padding: 4px 8px;
+    /* Agranda el cuadrado de la palabra hacia los lados */
+    border: 5px solid gray;
+    /* El borde del margin y el padding */
+    border-radius: 4px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+
+}
+
+nav {
+    background-color: bisque;
+    display: flex;
+}
+
+ul {
+    width: 100%;
+    /* Lo que esta dentro de "ul" lo abarca con "width" */
+}
+
+header h1 {
+    font-size: 60px;
+    /* padding: 80px;
+    border: 20px solid;
+    margin: 80px; */
+}
+
+header h3 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#Proxima-Charla {
+    background: #a4452c;
+    padding: 100px;
+    color: white;
+}
+
+#Proxima-Charla .wrapper {
+    width: 800px;
+    margin: auto;
+}
+
+.wrapper img {
+    width: 25%;
+}
+
+.wrapper img,
+.texto {
+    display: inline-block;
+    vertical-align: middle;
+}
